@@ -2,6 +2,17 @@ Software from paper "Reframing the magnetotelluric phase tensor for monitoring a
 Authors: Ana Gabriela Bravo-Osuna, Enrique Gómez-Treviño, Olaf Josafat Cortés-Arroyo, Néstor Fernando Delgadillo-Jáuregui, Rocío Fabiola Arellano-Castro
 DOI: 10.21203/rs.3.rs-23277/v1
 
+INSTRUCTIONS:
 
+1) Load files with impedance information into the system (ZXX_4E.m, ZXY_4E.m, ZYX_4E.m, ZXX_4E.m).
 
-Please use script "Main Reframing.m" to run software
+2) Run script "Main Reframing.m".
+
+Notes:
+  - User must define variables such as: 
+    p = error percentage
+    nrealiz = number of realizations
+    np = number of periods considered for every window
+    
+  - Is possible to select either norm L1 or L2, by comment/uncomment lines 29 or 30 in file BahrCrit_reframing.m
+  
